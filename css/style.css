@@ -1,0 +1,272 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat|Work+Sans');
+
+* {
+	margin:0;
+	padding: 0;
+	box-sizing:border-box;
+}
+
+html, body {
+	height: 100%;
+}
+
+body {
+    background: #111;
+}
+
+/*==================================TITLE=============================*/
+
+#title {
+/*    background: #333;*/
+    position: absolute;
+    left: 50%;
+    top: 70%;
+    width: 500px;
+    height: 100px;
+/*    text-align: center;*/
+}
+
+h1 {
+    font-family: 'Work Sans', sans-serif;
+    color: #eee;
+    font-size: 24px;
+    font-weight: 100;
+    padding: 20px;
+}
+
+#title nav a:link {
+    color: #aaa;
+    text-decoration: none;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 12px;
+    padding: 10px;
+}
+
+#title nav a:hover {
+    font-weight: 600;
+}
+
+#title nav a:visited {
+    color: #aaa;
+}
+
+/*=====================TOP PAGE========================*/
+
+#top_page {
+    height: 30%;
+    position: fixed;
+    width: 100%;
+    z-index: 99;
+    background: #111;
+}
+
+#top_page h1 {
+    text-align: center;
+    padding: 2% 0 0.5%;
+    font-size: 30px;
+}
+
+#top_page h2 {
+    text-align: center;
+    padding: 0.5%;
+    font-size: 20px;
+    color: #fff;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 100;
+}
+
+#top_page div {
+    position: absolute;
+    height: 1px;
+    background: #eee;
+    width: 10%;
+    left: 45%;
+}
+
+
+#top_page nav {
+    text-align: center;
+    padding: 2%;
+}
+
+#top_page nav a:link {
+    color: #aaa;
+    text-decoration: none;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    padding: 10px;
+}
+
+#top_page nav a:hover {
+    font-weight: 600;
+}
+
+#top_page nav a:visited {
+    color: #aaa;
+}
+
+/*======================= MAIN =================================*/
+
+#main {
+    background: #fff;
+    position: absolute;
+    width: 80%;
+    left: 10%;
+    min-height: 70%;
+    height: auto;
+    top: 30%;
+}
+
+#main h2 {
+    color: #333;
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    font-weight: 200;
+    font-size: 30px;
+    padding-top: 30px;
+}
+
+#div_amelie {
+    position: absolute;
+    height: 1px;
+    background: #333;
+    width: 6%;
+    left: 47%;
+}
+
+.pictures {
+/*    background: tomato;*/
+    position: relative;
+    width: 100%;
+    height: 60%;
+    text-align: center;
+    margin-top: 2%;
+/*
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    align-items: center;
+*/
+}
+
+#amelie1 {
+    position: relative;
+    background: url(../images/amelie1_30.jpg) no-repeat center center;
+    background-size: cover;
+    width: 200px;
+    height: 200px;
+    display: inline-block;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+#amelie2 {
+    position: relative;
+    background: url(../images/amelie2.JPG) no-repeat center center;
+    background-size: cover;
+    width: 200px;
+    height: 200px;
+    display: inline-block;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+#amelie3 {
+    position: relative;
+    background: url(../images/amelie3.JPG) no-repeat center center;
+    background-size: cover;
+    width: 200px;
+    height: 200px;
+    display: inline-block;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+#amelie4 {
+    position: relative;
+    background: url(../images/amelie4.JPG) no-repeat center center;
+    background-size: cover;
+    width: 200px;
+    height: 200px;
+    display: inline-block;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+#amelie5 {
+    position: relative;
+    background: url(../images/amelie5.JPG) no-repeat center center;
+    background-size: cover;
+    width: 200px;
+    height: 200px;
+    display: inline-block;
+    margin-left: 5px;
+    margin-right: 5px;
+    
+}
+
+#gotham1 {
+    position: relative;
+    background: url(../images/gotham_detail_geo.PNG) no-repeat center center;
+    background-size: cover;
+    width: 300px;
+    height: 200px;
+    display: inline-block;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+#gotham2 {
+    position: relative;
+    background: url(../images/gotham_large.PNG) no-repeat center center;
+    background-size: cover;
+    width: 300px;
+    height: 200px;
+    display: inline-block;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+#gotham3 {
+    position: relative;
+    background: url(../images/gotham_detail_city.PNG) no-repeat center center;
+    background-size: cover;
+    width: 300px;
+    height: 200px;
+    display: inline-block;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.commentary {
+    position: relative;
+    top: 50%;
+    font-family: 'Montserrat', sans-serif;
+    padding: 30px 150px;
+    text-align: center;
+}
+
+.commentary p {
+    margin: 10px;
+    font-size: 14px;
+}
+
+.end_section {
+    position: absolute;
+    height: 1px;
+    background: #333;
+    width: 50%;
+    left: 25%;
+}
+
+#footer {
+    position: relative;
+/*    bottom: 0;*/
+    height: 10%;
+    width: 100%;
+    background: #111;
+}
+
+#footer p {
+    color: #111;
+}
