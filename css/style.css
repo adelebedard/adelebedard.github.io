@@ -1,0 +1,598 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat|Work+Sans');
+
+* {
+	margin:0;
+	padding: 0;
+	box-sizing:border-box;
+}
+
+html, body {
+	height: 100%;
+}
+
+body {
+    background: #111;
+}
+
+/*==================================TITLE=============================*/
+
+#title {
+/*    background: #333;*/
+    position: absolute;
+    left: 50%;
+    top: 70%;
+    width: 500px;
+    height: 100px;
+/*    text-align: center;*/
+}
+
+h1 {
+    font-family: 'Work Sans', sans-serif;
+    color: #eee;
+    font-size: 24px;
+    font-weight: 100;
+    padding: 20px;
+}
+
+#title nav a:link {
+    color: #aaa;
+    text-decoration: none;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 12px;
+    padding: 10px;
+}
+
+#title nav a:hover {
+    font-weight: 600;
+}
+
+#title nav a:visited {
+    color: #aaa;
+}
+
+/*=====================TOP PAGE========================*/
+
+#top_page {
+    height: 30%;
+    position: fixed;
+    width: 100%;
+    z-index: 99;
+    background: #111;
+}
+
+#top_page h1 {
+    text-align: center;
+    padding: 2% 0 0.5%;
+    font-size: 30px;
+}
+
+#top_page h2 {
+    text-align: center;
+    padding: 0.5%;
+    font-size: 20px;
+    color: #fff;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 100;
+}
+
+#top_page div {
+    position: absolute;
+    height: 1px;
+    background: #eee;
+    width: 10%;
+    left: 45%;
+}
+
+
+#top_page nav {
+    text-align: center;
+    padding: 2%;
+}
+
+#top_page nav a:link {
+    color: #aaa;
+    text-decoration: none;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    padding: 10px;
+}
+
+#top_page nav a:hover {
+    font-weight: 600;
+}
+
+#top_page nav a:visited {
+    color: #aaa;
+}
+
+/*======================= MAIN =================================*/
+
+#main {
+    background: #fff;
+    position: absolute;
+    width: 80%;
+    left: 10%;
+    min-height: 70%;
+    height: auto;
+    top: 30%;
+}
+
+#main h2 {
+    color: #333;
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    font-weight: 200;
+    font-size: 30px;
+    padding-top: 30px;
+}
+
+#div_amelie {
+    position: absolute;
+    height: 1px;
+    background: #333;
+    width: 6%;
+    left: 47%;
+}
+
+#div_cesfev {
+    position: absolute;
+    height: 1px;
+    background: #333;
+    width: 21%;
+    left: 39.5%;
+}
+
+#div_cesnov {
+    position: absolute;
+    height: 1px;
+    background: #333;
+    width: 14%;
+    left: 43%;
+}
+
+#div_jbc2017 {
+    position: absolute;
+    height: 1px;
+    background: #333;
+    width: 30%;
+    left: 35%;
+}
+
+#div_docu {
+    position: absolute;
+    height: 1px;
+    background: #333;
+    width: 26%;
+    left: 37%;
+}
+
+.pictures {
+/*    background: tomato;*/
+    position: relative;
+    width: 100%;
+    height: 60%;
+    text-align: center;
+    margin-top: 2%;
+/*
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    align-items: center;
+*/
+}
+
+#amelie1 {
+    position: relative;
+    background: url(../images/amelie1_30.jpg) no-repeat center center;
+    background-size: cover;
+    width: 200px;
+    height: 200px;
+    display: inline-block;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+#amelie2 {
+    position: relative;
+    background: url(../images/amelie2.JPG) no-repeat center center;
+    background-size: cover;
+    width: 200px;
+    height: 200px;
+    display: inline-block;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+#amelie3 {
+    position: relative;
+    background: url(../images/amelie3.JPG) no-repeat center center;
+    background-size: cover;
+    width: 200px;
+    height: 200px;
+    display: inline-block;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+#amelie4 {
+    position: relative;
+    background: url(../images/amelie4.JPG) no-repeat center center;
+    background-size: cover;
+    width: 200px;
+    height: 200px;
+    display: inline-block;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+#amelie5 {
+    position: relative;
+    background: url(../images/amelie5.JPG) no-repeat center center;
+    background-size: cover;
+    width: 200px;
+    height: 200px;
+    display: inline-block;
+    margin-left: 5px;
+    margin-right: 5px;
+    
+}
+
+#gotham1 {
+    position: relative;
+    background: url(../images/gotham_detail_geo.PNG) no-repeat center center;
+    background-size: cover;
+    width: 300px;
+    height: 200px;
+    display: inline-block;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+#gotham2 {
+    position: relative;
+    background: url(../images/gotham_large.PNG) no-repeat center center;
+    background-size: cover;
+    width: 300px;
+    height: 200px;
+    display: inline-block;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+#gotham3 {
+    position: relative;
+    background: url(../images/gotham_detail_city.PNG) no-repeat center center;
+    background-size: cover;
+    width: 300px;
+    height: 200px;
+    display: inline-block;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+#cesnov1 {
+    position: relative;
+    background: url(../images/ces_nov_arabesque.jpg) no-repeat center center;
+    background-size: cover;
+    width: 300px;
+    height: 200px;
+    display: inline-block;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+#cesnov2 {
+    position: relative;
+    background: url(../images/ces_nov_towards_shadow.jpg) no-repeat center center;
+    background-size: cover;
+    width: 300px;
+    height: 200px;
+    display: inline-block;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+#cesnov3 {
+    position: relative;
+    background: url(../images/ces_nov_chant.jpg) no-repeat center center;
+    background-size: cover;
+    width: 300px;
+    height: 200px;
+    display: inline-block;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+#cesfev1 {
+    position: relative;
+    background: url(../images/ces_fev1.jpg) no-repeat center center;
+    background-size: cover;
+    width: 200px;
+    height: 200px;
+    display: inline-block;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+#cesfev2 {
+    position: relative;
+    background: url(../images/ces_fev2.jpg) no-repeat center center;
+    background-size: cover;
+    width: 200px;
+    height: 200px;
+    display: inline-block;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+#cesfev3 {
+    position: relative;
+    background: url(../images/ces_fev5.jpg) no-repeat center center;
+    background-size: cover;
+    width: 200px;
+    height: 200px;
+    display: inline-block;
+    margin-left: 5px;
+    margin-right: 5px;
+    
+}
+
+#cesfev4 {
+    position: relative;
+    background: url(../images/ces_fev4.jpg) no-repeat center center;
+    background-size: cover;
+    width: 200px;
+    height: 200px;
+    display: inline-block;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+#cesfev5 {
+    position: relative;
+    background: url(../images/ces_fev6.jpg) no-repeat center center;
+    background-size: cover;
+    width: 200px;
+    height: 200px;
+    display: inline-block;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+#web_final1 {
+    position: relative;
+    background: url(../images/web_final1.PNG) no-repeat center center;
+    background-size: cover;
+    width: 350px;
+    height: 200px;
+    display: inline-block;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+#web_final2 {
+    position: relative;
+    background: url(../images/web_final2.PNG) no-repeat center center;
+    background-size: cover;
+    width: 300px;
+    height: 200px;
+    display: inline-block;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+#web_final3 {
+    position: relative;
+    background: url(../images/web_final3.PNG) no-repeat center center;
+    background-size: cover;
+    width: 350px;
+    height: 200px;
+    display: inline-block;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+#web_perso1 {
+    position: relative;
+    background: url(../images/web_perso1.PNG) no-repeat center center;
+    background-size: cover;
+    width: 400px;
+    height: 200px;
+    display: inline-block;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+#web_perso2 {
+    position: relative;
+    background: url(../images/web_perso2.PNG) no-repeat center center;
+    background-size: cover;
+    width: 400px;
+    height: 200px;
+    display: inline-block;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+#game1 {
+    position: relative;
+    background: url(../images/game1.PNG) no-repeat center center;
+    background-size: cover;
+    width: 300px;
+    height: 200px;
+    display: inline-block;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+#game2 {
+    position: relative;
+    background: url(../images/game2.PNG) no-repeat center center;
+    background-size: cover;
+    width: 300px;
+    height: 200px;
+    display: inline-block;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+#game3 {
+    position: relative;
+    background: url(../images/game3.PNG) no-repeat center center;
+    background-size: cover;
+    width: 300px;
+    height: 200px;
+    display: inline-block;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+#ampr1 {
+    position: relative;
+    background: url(../images/ampr1.PNG) no-repeat center center;
+    background-size: cover;
+    width: 350px;
+    height: 200px;
+    display: inline-block;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+#ampr2 {
+    position: relative;
+    background: url(../images/ampr2.PNG) no-repeat center center;
+    background-size: cover;
+    width: 300px;
+    height: 200px;
+    display: inline-block;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+#ampr3 {
+    position: relative;
+    background: url(../images/ampr3.PNG) no-repeat center center;
+    background-size: cover;
+    width: 350px;
+    height: 200px;
+    display: inline-block;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+
+.youtube_video {
+    position: relative;
+    left: 20%;
+    margin-bottom: 5%;
+}
+.commentary {
+    position: relative;
+    top: 50%;
+    font-family: 'Montserrat', sans-serif;
+    padding: 30px 150px;
+    text-align: center;
+}
+
+.commentary p {
+    margin: 10px;
+    font-size: 14px;
+}
+
+.end_section {
+    position: absolute;
+    height: 1px;
+    background: #333;
+    width: 50%;
+    left: 25%;
+}
+
+.link {
+    text-align: center;
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 100;
+    font-size: 22px;
+    position: relative;
+    color: #111;
+    margin-top: 2%;
+}
+
+#doc_jeu {
+    margin-top: 0;
+    margin-bottom: 2%;
+}
+
+.link a:link {
+    color: #111;
+}
+
+.link a:visited {
+    color: #111;
+}
+
+#cv:link {
+    color: #fff;
+}
+
+#cv:visited {
+    color: #fff;
+}
+
+#footer {
+    position: relative;
+/*    bottom: 0;*/
+    height: 10%;
+    width: 100%;
+    background: #111;
+}
+
+#footer p {
+    color: #111;
+}
+
+/*============================CONTACT============================*/
+
+.contact_box {
+    background: #111;
+    border-style: solid;
+    border-color: #fff;
+    border-width: 1px;
+    position: absolute;
+    width: 20%;
+    left: 40%;
+    top: 35%;
+    height: 20%;
+    text-align: center;
+    
+}
+
+#img_phone {
+    position: relative;
+    background: url(../images/cellphone_lightgrey.png) no-repeat center center;
+    background-size: cover;
+    width: 20px;
+    height: 20px;
+    display: inline-block;
+    margin-left: 5px;
+    margin-right: 5px;
+    
+}
+
+#img_mail {
+    position: relative;
+    background: url(../images/email_lightgrey.png) no-repeat center center;
+    background-size: cover;
+    width: 20px;
+    height: 20px;
+    display: inline-block;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.contact_box p {
+    font-family: 'Montserrat', sans-serif;
+    color: #fff;
+}
+
+
+
