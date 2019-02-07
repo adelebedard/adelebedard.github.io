@@ -21,7 +21,7 @@ body {
     position: absolute;
     left: 50%;
     top: 70%;
-    width: 500px;
+    width: 600px;
     height: 100px;
 /*    text-align: center;*/
 }
@@ -194,7 +194,7 @@ h1 {
 
 #amelie2 {
     position: relative;
-    background: url(../images/amelie2.JPG) no-repeat center center;
+    background: url(../images/amelie2_30.jpg) no-repeat center center;
     background-size: cover;
     width: 200px;
     height: 200px;
@@ -205,7 +205,7 @@ h1 {
 
 #amelie3 {
     position: relative;
-    background: url(../images/amelie3.JPG) no-repeat center center;
+    background: url(../images/amelie3_30.jpg) no-repeat center center;
     background-size: cover;
     width: 200px;
     height: 200px;
@@ -216,7 +216,7 @@ h1 {
 
 #amelie4 {
     position: relative;
-    background: url(../images/amelie4.JPG) no-repeat center center;
+    background: url(../images/amelie4_30.jpg) no-repeat center center;
     background-size: cover;
     width: 200px;
     height: 200px;
@@ -227,7 +227,7 @@ h1 {
 
 #amelie5 {
     position: relative;
-    background: url(../images/amelie5.JPG) no-repeat center center;
+    background: url(../images/amelie5_30.jpg) no-repeat center center;
     background-size: cover;
     width: 200px;
     height: 200px;
@@ -239,7 +239,7 @@ h1 {
 
 #gotham1 {
     position: relative;
-    background: url(../images/gotham_detail_geo.PNG) no-repeat center center;
+    background: url(../images/gotham_detail_geo_30.png) no-repeat center center;
     background-size: cover;
     width: 300px;
     height: 200px;
@@ -250,7 +250,7 @@ h1 {
 
 #gotham2 {
     position: relative;
-    background: url(../images/gotham_large.PNG) no-repeat center center;
+    background: url(../images/gotham_large_30.png) no-repeat center center;
     background-size: cover;
     width: 300px;
     height: 200px;
@@ -261,7 +261,7 @@ h1 {
 
 #gotham3 {
     position: relative;
-    background: url(../images/gotham_detail_city.PNG) no-repeat center center;
+    background: url(../images/gotham_detail_city_30.png) no-repeat center center;
     background-size: cover;
     width: 300px;
     height: 200px;
@@ -416,7 +416,7 @@ h1 {
 
 #game1 {
     position: relative;
-    background: url(../images/game1.PNG) no-repeat center center;
+    background: url(../images/game1_30.png) no-repeat center center;
     background-size: cover;
     width: 300px;
     height: 200px;
@@ -427,7 +427,7 @@ h1 {
 
 #game2 {
     position: relative;
-    background: url(../images/game2.PNG) no-repeat center center;
+    background: url(../images/game2_30.png) no-repeat center center;
     background-size: cover;
     width: 300px;
     height: 200px;
@@ -438,7 +438,7 @@ h1 {
 
 #game3 {
     position: relative;
-    background: url(../images/game3.PNG) no-repeat center center;
+    background: url(../images/game3_30.png) no-repeat center center;
     background-size: cover;
     width: 300px;
     height: 200px;
@@ -592,7 +592,9 @@ h1 {
 .contact_box p {
     font-family: 'Montserrat', sans-serif;
     color: #fff;
+    font-size: 2vmin;
 }
+
 
 
 
