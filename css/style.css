@@ -126,6 +126,22 @@ h1 {
     padding-top: 30px;
 }
 
+#div_web1 {
+    position: absolute;
+    height: 1px;
+    background: #333;
+    width: 18%;
+    left: 41%;
+}
+
+#div_web2 {
+    position: absolute;
+    height: 1px;
+    background: #333;
+    width: 22%;
+    left: 39%;
+}
+
 #div_amelie {
     position: absolute;
     height: 1px;
@@ -593,6 +609,15 @@ h1 {
     font-family: 'Montserrat', sans-serif;
     color: #fff;
     font-size: 2vmin;
+}
+
+#cv {
+    position: absolute;
+    color: white;
+    height: 5%;
+    width: 30%;
+    left: 35%;
+    bottom: 30%;
 }
 
 
