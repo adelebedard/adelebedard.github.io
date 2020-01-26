@@ -16,11 +16,19 @@ body {
 
 /*==================================TITLE=============================*/
 
+#main_page {
+    /*background: url(../images/ces_nov_towards_shadow.jpg) no-repeat center center;*/
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+}
+
 #title {
-/*    background: #333;*/
+    /*background: #333;
+    opacity: 70%;*/   
     position: absolute;
-    left: 50%;
-    top: 70%;
+    left: 55%;
+    top: 75%;
     width: 600px;
     height: 100px;
 /*    text-align: center;*/
