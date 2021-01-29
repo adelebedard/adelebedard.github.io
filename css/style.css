@@ -205,94 +205,6 @@ h1 {
 */
 }
 
-#amelie1 {
-    position: relative;
-    background: url(../images/amelie1_30.jpg) no-repeat center center;
-    background-size: cover;
-    width: 200px;
-    height: 200px;
-    display: inline-block;
-    margin-left: 5px;
-    margin-right: 5px;
-}
-
-#amelie2 {
-    position: relative;
-    background: url(../images/amelie2_30.jpg) no-repeat center center;
-    background-size: cover;
-    width: 200px;
-    height: 200px;
-    display: inline-block;
-    margin-left: 5px;
-    margin-right: 5px;
-}
-
-#amelie3 {
-    position: relative;
-    background: url(../images/amelie3_30.jpg) no-repeat center center;
-    background-size: cover;
-    width: 200px;
-    height: 200px;
-    display: inline-block;
-    margin-left: 5px;
-    margin-right: 5px;
-}
-
-#amelie4 {
-    position: relative;
-    background: url(../images/amelie4_30.jpg) no-repeat center center;
-    background-size: cover;
-    width: 200px;
-    height: 200px;
-    display: inline-block;
-    margin-left: 5px;
-    margin-right: 5px;
-}
-
-#amelie5 {
-    position: relative;
-    background: url(../images/amelie5_30.jpg) no-repeat center center;
-    background-size: cover;
-    width: 200px;
-    height: 200px;
-    display: inline-block;
-    margin-left: 5px;
-    margin-right: 5px;
-    
-}
-
-#gotham1 {
-    position: relative;
-    background: url(../images/gotham_detail_geo_30.png) no-repeat center center;
-    background-size: cover;
-    width: 300px;
-    height: 200px;
-    display: inline-block;
-    margin-left: 5px;
-    margin-right: 5px;
-}
-
-#gotham2 {
-    position: relative;
-    background: url(../images/gotham_large_30.png) no-repeat center center;
-    background-size: cover;
-    width: 300px;
-    height: 200px;
-    display: inline-block;
-    margin-left: 5px;
-    margin-right: 5px;
-}
-
-#gotham3 {
-    position: relative;
-    background: url(../images/gotham_detail_city_30.png) no-repeat center center;
-    background-size: cover;
-    width: 300px;
-    height: 200px;
-    display: inline-block;
-    margin-left: 5px;
-    margin-right: 5px;
-}
 
 #cesnov1 {
     position: relative;
@@ -327,9 +239,9 @@ h1 {
     margin-right: 5px;
 }
 
-#cesfev1 {
+#aposteriori1 {
     position: relative;
-    background: url(../images/ces_fev1.jpg) no-repeat center center;
+    background: url(../images/aposteriori-1.jpg) no-repeat center center;
     background-size: cover;
     width: 200px;
     height: 200px;
@@ -338,9 +250,9 @@ h1 {
     margin-right: 5px;
 }
 
-#cesfev2 {
+#aposteriori2 {
     position: relative;
-    background: url(../images/ces_fev2.jpg) no-repeat center center;
+    background: url(../images/aposteriori-2.jpg) no-repeat center center;
     background-size: cover;
     width: 200px;
     height: 200px;
@@ -349,9 +261,9 @@ h1 {
     margin-right: 5px;
 }
 
-#cesfev3 {
+#aposteriori3 {
     position: relative;
-    background: url(../images/ces_fev5.jpg) no-repeat center center;
+    background: url(../images/aposteriori-3.jpg) no-repeat center center;
     background-size: cover;
     width: 200px;
     height: 200px;
@@ -361,9 +273,9 @@ h1 {
     
 }
 
-#cesfev4 {
+#aposteriori4 {
     position: relative;
-    background: url(../images/ces_fev4.jpg) no-repeat center center;
+    background: url(../images/aposteriori-4.jpg) no-repeat center center;
     background-size: cover;
     width: 200px;
     height: 200px;
@@ -372,15 +284,38 @@ h1 {
     margin-right: 5px;
 }
 
-#cesfev5 {
+#aposteriori5 {
     position: relative;
-    background: url(../images/ces_fev6.jpg) no-repeat center center;
+    background: url(../images/aposteriori-5.jpg) no-repeat center center;
     background-size: cover;
     width: 200px;
     height: 200px;
     display: inline-block;
     margin-left: 5px;
     margin-right: 5px;
+}
+
+#balle1 {
+    position: relative;
+    background: url(../images/ImageBalleSeule-1.PNG) no-repeat center center;
+    background-size: cover;
+    width: 200px;
+    height: 200px;
+    display: inline-block;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+#balle2 {
+    position: relative;
+    background: url(../images/ImageBalleSeule-2.PNG) no-repeat center center;
+    background-size: cover;
+    width: 200px;
+    height: 200px;
+    display: inline-block;
+    margin-left: 5px;
+    margin-right: 5px;
+    
 }
 
 #web_final1 {
@@ -416,31 +351,42 @@ h1 {
     margin-right: 5px;
 }
 
-#web_perso1 {
+#gamerella1 {
     position: relative;
-    background: url(../images/web_perso1.PNG) no-repeat center center;
+    background: url(../images/startScreen_small.png) no-repeat center center;
     background-size: cover;
-    width: 400px;
+    width: 225px;
     height: 200px;
     display: inline-block;
     margin-left: 5px;
     margin-right: 5px;
 }
 
-#web_perso2 {
+#gamerella2 {
     position: relative;
-    background: url(../images/web_perso2.PNG) no-repeat center center;
+    background: url(../images/therapistChoice_small.png) no-repeat center center;
     background-size: cover;
-    width: 400px;
+    width: 225px;
     height: 200px;
     display: inline-block;
     margin-left: 5px;
     margin-right: 5px;
 }
 
-#game1 {
+#gamerella3 {
     position: relative;
-    background: url(../images/game1_30.png) no-repeat center center;
+    background: url(../images/partyScene_small.png) no-repeat center center;
+    background-size: cover;
+    width: 225px;
+    height: 200px;
+    display: inline-block;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+#mouv1 {
+    position: relative;
+    background: url(../images/mouv-1.png) no-repeat center center;
     background-size: cover;
     width: 300px;
     height: 200px;
@@ -449,9 +395,9 @@ h1 {
     margin-right: 5px;
 }
 
-#game2 {
+#mouv2 {
     position: relative;
-    background: url(../images/game2_30.png) no-repeat center center;
+    background: url(../images/mouv-2.png) no-repeat center center;
     background-size: cover;
     width: 300px;
     height: 200px;
@@ -460,44 +406,11 @@ h1 {
     margin-right: 5px;
 }
 
-#game3 {
+#mouv3 {
     position: relative;
-    background: url(../images/game3_30.png) no-repeat center center;
+    background: url(../images/mouv-3.png) no-repeat center center;
     background-size: cover;
     width: 300px;
-    height: 200px;
-    display: inline-block;
-    margin-left: 5px;
-    margin-right: 5px;
-}
-
-#ampr1 {
-    position: relative;
-    background: url(../images/ampr1.PNG) no-repeat center center;
-    background-size: cover;
-    width: 350px;
-    height: 200px;
-    display: inline-block;
-    margin-left: 5px;
-    margin-right: 5px;
-}
-
-#ampr2 {
-    position: relative;
-    background: url(../images/ampr2.PNG) no-repeat center center;
-    background-size: cover;
-    width: 300px;
-    height: 200px;
-    display: inline-block;
-    margin-left: 5px;
-    margin-right: 5px;
-}
-
-#ampr3 {
-    position: relative;
-    background: url(../images/ampr3.PNG) no-repeat center center;
-    background-size: cover;
-    width: 350px;
     height: 200px;
     display: inline-block;
     margin-left: 5px;
